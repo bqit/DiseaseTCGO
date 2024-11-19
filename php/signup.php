@@ -15,28 +15,36 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 die;
             }
             
-            $user_id = random_num(20);
-            $hashed_password = password_hash($password, PASSWORD_BCRYPT);
-            $query = "INSERT INTO users (user_id, username, password) VALUES ('$user_id', '$user_name', '$hashed_password')";
-
-            if (mysqli_query($con, $query)) {
-                header("Location: ./login.php");
-                
-				$profileQuery = "INSERT INTO profile 
-                (user_id, username, user_image, total_cards, battle_register, battle_won, user_bio, is_verified, is_beta) 
-                VALUES 
-                ('" . mysqli_real_escape_string($con, $user_id) . "', 
-                 '" . mysqli_real_escape_string($con, $user_name) . "', 
-                 '', 
-                 0, 0, 0, 
-                 '', 
-                 0, 0)";
-					
-				mysqli_query($con, $profileQuery);
-
-				exit;
+            $stmt = $con->prepare("SELECT * FROM users WHERE username = ? LIMIT 1");
+            $stmt->bind_param("s", $user_name);
+            $stmt->execute();
+            $result = $stmt->get_result();
+            if ($result->num_rows == 0) {
+                $user_id = random_num(20);
+                $hashed_password = password_hash($password, PASSWORD_BCRYPT);
+                $query = "INSERT INTO users (user_id, username, password) VALUES ('$user_id', '$user_name', '$hashed_password')";
+    
+                if (mysqli_query($con, $query)) {
+                    header("Location: ./login.php");
+                    
+                    $profileQuery = "INSERT INTO profile 
+                    (user_id, username, user_image, total_cards, battle_register, battle_won, user_bio, is_verified, is_beta) 
+                    VALUES 
+                    ('" . mysqli_real_escape_string($con, $user_id) . "', 
+                     '" . mysqli_real_escape_string($con, $user_name) . "', 
+                     '', 
+                     0, 0, 0, 
+                     '', 
+                     0, 0)";
+                        
+                    mysqli_query($con, $profileQuery);
+    
+                    exit;
+                } else {
+                    $error_message = "<span class='login_error'>Errore durante la registrazione! Riprova più tardi.</span>";
+                }
             } else {
-                $error_message = "<span class='login_error'>Errore durante la registrazione! Riprova più tardi.</span>";
+                $error_message = "<span class='login_error'>Questo utente esiste già!</span>";
             }
         } else {
             $error_message = "<span class='login_error'>Le password non coincidono!</span>";

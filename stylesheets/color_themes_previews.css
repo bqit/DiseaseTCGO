@@ -1,0 +1,287 @@
+.row_default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323437;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e1e3;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_retro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #07737a;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_hellokitty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f35588;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_peach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6d992;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_tiramisu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfc6b9;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_cyberred {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e2626;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_lavender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a4a7ea;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_matrix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_stealth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #010203;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_chiesenewyear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a0b0c;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_evangelion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a0e25;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_mint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00c18c;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_latte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_inferno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #081426;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_snes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bfbec2;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_vivid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #190618;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #323437;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_watermelon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f4437;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_igor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6b1c6;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_tacos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8ad34;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_matchamocha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #523525;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_deepocean {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21314b;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_honey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2aa00;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_incognito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_doomsday {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_discord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313338;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.row_cherry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec8cd;
+    padding: 5px;
+    border-radius: 50px;
+    width: 80px;
+}
+  
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+  

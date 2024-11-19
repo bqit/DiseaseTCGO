@@ -1,0 +1,90 @@
+<div class="overlay-dark"><button class="quick_close" onclick="quick_close()"></button></div>
+	<span class="themesWindow">
+		<p class="theme_title">Seleziona un tema.</p>
+		<span class="themeList">
+			<button class="button_style" id="default" onmouseover="preview('default')" onmouseout="resetTheme()" onclick="set_theme('default')">
+				<div class="button_content"><span>DTCGO Default</span><span class="row_default"><span class="circle" style="background-color: #2c2e31;"></span><span class="circle" style="background-color: #e2b714;"></span><span class="circle" style="background-color: #ffffff;"></span></span></div>
+			</button>
+			<button class="button_style" id="light" onmouseover="preview('light')" onclick="set_theme('light')">
+				<div class="button_content"><span>DTCGO Light</span><span class="row_light"><span class="circle" style="background-color: #d1d3d8;"></span><span class="circle" style="background-color: #e2b714;"></span><span class="circle" style="background-color: #343639;"></span></span></div>
+			</button>
+			<button class="button_style" id="pro" onmouseover="preview('pro')" onclick="set_theme('pro')">
+			<div class="button_content"><span>DTCGO Pro</span><span class="row_pro"><span class="circle" style="background-color: #2c2e31;"></span><span class="circle" style="background-color: #e23d14;"></span><span class="circle" style="background-color: #ffc7c7;"></span></span></div>
+			</button>
+			<button class="button_style" id="retro" onmouseover="preview('retro')" onclick="set_theme('retro')">
+				<div class="button_content"><span>Retrò</span><span class="row_retro"><span class="circle" style="background-color: #26858b;"></span><span class="circle" style="background-color: #88dbdf;"></span><span class="circle" style="background-color: #f4f9f9;"></span></span></div>
+			</button>
+			<button class="button_style" id="hellokitty" onmouseover="preview('hellokitty')" onclick="set_theme('hellokitty')">
+			<div class="button_content"><span>Hello Kitty</span><span class="row_hellokitty"><span class="circle" style="background-color: #db4979;"></span><span class="circle" style="background-color: #661e36;"></span><span class="circle" style="background-color: #f0e9ec;"></span></span></div>
+			</button>
+			<button class="button_style" id="peach" onmouseover="preview('peach')" onclick="set_theme('peach')">
+			<div class="button_content"><span>Pesca</span><span class="row_peach"><span class="circle" style="background-color: #f6cc93;"></span><span class="circle" style="background-color: #df897a;"></span><span class="circle" style="background-color: #fcfcf8;"></span></span></div>
+			</button>
+			<button class="button_style" id="tiramisu" onmouseover="preview('tiramisu')" onclick="set_theme('tiramisu')">
+			<div class="button_content"><span>Tiramisù</span><span class="row_tiramisu"><span class="circle" style="background-color: #d0bca7;"></span><span class="circle" style="background-color: #7d5448;"></span><span class="circle" style="background-color: #c0976f;"></span></span></div>
+			</button>
+			<button class="button_style" id="cyberred" onmouseover="preview('cyberred')" onclick="set_theme('cyberred')">
+			<div class="button_content"><span>Cyber Red</span><span class="row_cyberred"><span class="circle" style="background-color: #3f1616;"></span><span class="circle" style="background-color: #ff6060;"></span><span class="circle" style="background-color: #bc4646;"></span></span></div>
+			</button>
+			<button class="button_style" id="lavender" onmouseover="preview('lavender')" onclick="set_theme('lavender')">
+			<div class="button_content"><span>Lavanda</span><span class="row_lavender"><span class="circle" style="background-color: #989bd9;"></span><span class="circle" style="background-color: #7c7faf;"></span><span class="circle" style="background-color: #f1ebf1;"></span></span></div>
+			</button>
+			<button class="button_style" id="matrix" onmouseover="preview('matrix')" onclick="set_theme('matrix')">
+			<div class="button_content"><span>Matrix</span><span class="row_matrix"><span class="circle" style="background-color: #032000;"></span><span class="circle" style="background-color: #15ff00;"></span><span class="circle" style="background-color: #006500;"></span></span></div>
+			</button>
+			<button class="button_style" id="stealth" onmouseover="preview('stealth')" onclick="set_theme('stealth')">
+			<div class="button_content"><span>Stealth</span><span class="row_stealth"><span class="circle" style="background-color: #121212;"></span><span class="circle" style="background-color: #5e676e;"></span><span class="circle" style="background-color: #383e42;"></span></span></div>
+			</button>
+			<button class="button_style" id="chiesenewyear" onmouseover="preview('chiesenewyear')" onclick="set_theme('chiesenewyear')">
+			<div class="button_content"><span>Capodanno Cinese</span><span class="row_chiesenewyear"><span class="circle" style="background-color: #0e0506;"></span><span class="circle" style="background-color: #e2a528;"></span><span class="circle" style="background-color: #ff3a32;"></span></span></div>
+			</button>
+			<button class="button_style" id="evangelion" onmouseover="preview('evangelion')" onclick="set_theme('evangelion')">
+			<div class="button_content"><span>Evangelion</span><span class="row_evangelion"><span class="circle" style="background-color: #14081f;"></span><span class="circle" style="background-color: #7554a3;"></span><span class="circle" style="background-color: #99de1e;"></span></span></div>
+			</button>
+			<button class="button_style" id="mint" onmouseover="preview('mint')" onclick="set_theme('mint')">
+			<div class="button_content"><span>Menta</span><span class="row_mint"><span class="circle" style="background-color: #17ae7d;"></span><span class="circle" style="background-color: #186544;"></span><span class="circle" style="background-color: #ffffff;"></span></span></div>
+			</button>
+			<button class="button_style" id="latte" onmouseover="preview('latte')" onclick="set_theme('latte')">
+			<div class="button_content"><span>Latte</span><span class="row_latte"><span class="circle" style="background-color: #ddeff3;"></span><span class="circle" style="background-color: #28334a;"></span><span class="circle" style="background-color: #62cfe6;"></span></span></div>
+			</button>
+			<button class="button_style" id="inferno" onmouseover="preview('inferno')" onclick="set_theme('inferno')">
+			<div class="button_content"><span>Inferno</span><span class="row_inferno"><span class="circle" style="background-color: #040e1d;"></span><span class="circle" style="background-color: #f17754;"></span><span class="circle" style="background-color: #ffbc90;"></span></span></div>
+			</button>
+			<button class="button_style" id="snes" onmouseover="preview('snes')" onclick="set_theme('snes')">
+			<div class="button_content"><span>SNES</span><span class="row_snes"><span class="circle" style="background-color: #b5b0c2;"></span><span class="circle" style="background-color: #553d94;"></span><span class="circle" style="background-color: #2e2e2e;"></span></span></div>
+			</button>
+			<button class="button_style" id="vivid" onmouseover="preview('vivid')" onclick="set_theme('vivid')">
+			<div class="button_content"><span>Vivido</span><span class="row_vivid"><span class="circle" style="background-color: #2c0c28;"></span><span class="circle" style="background-color: #e0caac;"></span><span class="circle" style="background-color: #662e61;"></span></span></div>
+			</button>
+			<button class="button_style" id="watermelon" onmouseover="preview('watermelon')" onclick="set_theme('watermelon')">
+			<div class="button_content"><span>Cocomero</span><span class="row_watermelon"><span class="circle" style="background-color: #244d3f;"></span><span class="circle" style="background-color: #d6686f;"></span><span class="circle" style="background-color: #cdc6bc;"></span></span></div>
+			</button>
+			<button class="button_style" id="igor" onmouseover="preview('igor')" onclick="set_theme('igor')">
+			<div class="button_content"><span>IGOR</span><span class="row_igor"><span class="circle" style="background-color: #352f2f;"></span><span class="circle" style="background-color: #f38aaa;"></span><span class="circle" style="background-color: #ebd1d9;"></span></span></div>
+			</button>
+			<button class="button_style" id="tacos" onmouseover="preview('tacos')" onclick="set_theme('tacos')">
+			<div class="button_content"><span>Tacos</span><span class="row_tacos"><span class="circle" style="background-color: #f9b951;"></span><span class="circle" style="background-color: #b12189;"></span><span class="circle" style="background-color: #eeedec;"></span></span></div>
+			</button>
+			<button class="button_style" id="matchamocha" onmouseover="preview('matchamocha')" onclick="set_theme('matchamocha')">
+			<div class="button_content"><span>Matcha Mocha</span><span class="row_matchamocha"><span class="circle" style="background-color: #422b1e;"></span><span class="circle" style="background-color: #7ec160;"></span><span class="circle" style="background-color: #9e6749;"></span></span></div>
+			</button>
+			<button class="button_style" id="deepocean" onmouseover="preview('deepocean')" onclick="set_theme('deepocean')">
+			<div class="button_content"><span>Deep Ocean</span><span class="row_deepocean"><span class="circle" style="background-color: #12223b;"></span><span class="circle" style="background-color: #3667cf;"></span><span class="circle" style="background-color: #ffffff;"></span></span></div>
+			</button>
+			<button class="button_style" id="honey" onmouseover="preview('honey')" onclick="set_theme('honey')">
+			<div class="button_content"><span>Miele</span><span class="row_honey"><span class="circle" style="background-color: #e19e00;"></span><span class="circle" style="background-color: #fff546;"></span><span class="circle" style="background-color: #525047;"></span></span></div>
+			</button>
+			<button class="button_style" id="incognito" onmouseover="preview('incognito')" onclick="set_theme('incognito')">
+			<div class="button_content"><span>Incognito</span><span class="row_incognito"><span class="circle" style="background-color: #151515;"></span><span class="circle" style="background-color: #ff9900;"></span><span class="circle" style="background-color: #c6c6c6;"></span></span></div>
+			</button>
+			<button class="button_style" id="doomsday" onmouseover="preview('doomsday')" onclick="set_theme('doomsday')">
+			<div class="button_content"><span>Doomsday</span><span class="row_evangelion"><span class="circle" style="background-color: #1e001e;"></span><span class="circle" style="background-color: #c58aff;"></span><span class="circle" style="background-color: #ebd7ff;"></span></span></div>
+			</button>
+			<button class="button_style" id="discord" onmouseover="preview('discord')" onclick="set_theme('discord')">
+			<div class="button_content"><span>Discord</span><span class="row_discord"><span class="circle" style="background-color: #2b2d31;"></span><span class="circle" style="background-color: #5a65ea;"></span><span class="circle" style="background-color: #bcbfc3;"></span></span></div>
+			</button>
+			<button class="button_style" id="cherry" onmouseover="preview('cherry')" onclick="set_theme('cherry')">
+			<div class="button_content"><span>Ciliegia</span><span class="row_cherry"><span class="circle" style="background-color: #f2babd;"></span><span class="circle" style="background-color: #ca0000;"></span><span class="circle" style="background-color: #ffffff;"></span></span></div>
+			</button>
+		</span>
+	</span>

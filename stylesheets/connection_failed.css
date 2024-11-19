@@ -1,0 +1,73 @@
+@import url(./color_palettes.css);
+
+@font-face {
+    font-family: "websiteFont";
+    src: url(./../font/LFTEticaMono-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "websiteFont";
+    src: url(./../font/JetBrainsMono-ExtraBold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.title_err {
+    color: var(--title);
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.err_message {
+    color: var(--text);
+}
+
+.err_code {
+    margin-top: -20px;
+    font-size: 9px;
+    color: var(--secondary_color);
+}
+
+.box {
+    position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.report {
+    color: var(--secondary_color);
+    font-family: 'websiteFont', sans-serif;
+    font-size: 10px;
+}
+
+@media screen and (max-width: 600px){
+	.box {
+        width: 95%;
+    }
+
+    .err_message {
+        font-size: 12px;
+    }
+
+    .title_err {
+        font-size: 17px;
+    }
+}

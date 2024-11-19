@@ -1,0 +1,257 @@
+:root, 
+:root.default, 
+:root.evangelion, 
+:root.chiesenewyear, 
+:root.stealth, 
+:root.matrix, 
+:root.lavander, 
+:root.cyberred, 
+:root.tiramisu, 
+:root.peach, 
+:root.hellokitty, 
+:root.retro, 
+:root.light {
+
+    transition: 
+        --background_color 0.5s ease-in-out, 
+        --primary_color 0.5s ease-in-out, 
+        --secondary_color 0.5s ease-in-out, 
+        --title 0.5s ease-in-out, 
+        --text 0.5s ease-in-out;
+}
+
+:root.default {
+    --background_color: #323437;
+    --primary_color: #2c2e31;
+    --secondary_color: #5f5f61;
+    --title: #e2b714;
+    --text: #ffffff;
+}
+
+:root.evangelion {
+    --background_color: #1a0e25;
+    --primary_color: #14081f;
+    --secondary_color: #99de1e;
+    --title: #7554a3;
+    --text: #ded7ea;
+}
+
+:root.chiesenewyear {
+    --background_color: #1a0b0c;
+    --primary_color: #0e0506;
+    --secondary_color: #ff3a32;
+    --title: #e2a528;
+    --text: #474a4b;
+}
+
+:root.stealth {
+    --background_color: #010203;
+    --primary_color: #121212;
+    --secondary_color: #454c52;
+    --title: #5e676e;
+    --text: #383e42;
+}
+
+:root.matrix {
+    --background_color: #000000;
+    --primary_color: #032000;
+    --secondary_color: #006500;
+    --title: #15ff00;
+    --text: #006500;
+}
+
+:root.lavender {
+    --background_color: #a4a7ea;
+    --primary_color: #989bd9;
+    --secondary_color: #f1ebf1;
+    --title: #7c7faf;
+    --text: #f1ebf1;
+}
+
+:root.cyberred {
+    --background_color: #6e2626;
+    --primary_color: #3f1616;
+    --secondary_color: #bc4646;
+    --title: #ff6060;
+    --text: #bc4646;
+}
+
+:root.tiramisu {
+    --background_color: #cfc6b9;
+    --primary_color: #d0bca7;
+    --secondary_color: #c0976f;
+    --title: #7d5448;
+    --text: #c0976f;
+}
+
+
+:root.peach {
+    --background_color: #f6d992;
+    --primary_color: #f6cc93;
+    --secondary_color: #fcfcf8;
+    --title: #df897a;
+    --text: #fcfcf8;
+}
+
+:root.hellokitty {
+    --background_color: #f35588;
+    --primary_color: #db4979;
+    --secondary_color: #661e36;
+    --title: #94294c;
+    --text: #f0e9ec;
+}
+
+
+:root.retro {
+    --background_color: #07737a;
+    --primary_color: #26858b;
+    --secondary_color: #f4f9f9;
+    --title: #88dbdf;
+    --text: #f4f9f9;
+}
+
+
+:root.light {
+    --background_color: #e1e1e3;
+    --primary_color: #d1d3d8;
+    --secondary_color: #5f5f61;
+    --title: #e2b714;
+    --text: #343639;
+}
+
+:root.mint {
+    --background_color: #00c18c;
+    --primary_color: #17ae7d;
+    --secondary_color: #275243;
+    --title: #186544;
+    --text: #ffffff;
+}
+
+:root.latte {
+    --background_color: #ffffff;
+    --primary_color: #ddeff3;
+    --secondary_color: #83d7e9;
+    --title: #28334a;
+    --text: #62cfe6;
+}
+
+:root.inferno {
+    --background_color: #081426;
+    --primary_color: #040e1d;
+    --secondary_color: #ffbc90;
+    --title: #f17754;
+    --text: #ffbc90;
+}
+
+:root.snes {
+    --background_color: #bfbec2;
+    --primary_color: #b5b0c2;
+    --secondary_color: #a08cd4;
+    --title: #553d94;
+    --text: #2e2e2e;
+}
+
+:root.vivid {
+    --background_color: #190618;
+    --primary_color: #2c0c28;
+    --secondary_color: #baafb2;
+    --title: #e0caac;
+    --text: #662e61;
+}
+
+:root.watermelon {
+    --background_color: #1f4437;
+    --primary_color: #244d3f;
+    --secondary_color: #3e7a65;
+    --title: #d6686f;
+    --text: #cdc6bc;
+}
+
+:root.igor {
+    --background_color: #f6b1c6;
+    --primary_color: #352f2f;
+    --secondary_color: #f5f5f5;
+    --title: #f38aaa;
+    --text: #ebd1d9;
+}
+
+:root.tacos {
+    --background_color: #f8ad34;
+    --primary_color: #f9b951;
+    --secondary_color: #333333;
+    --title: #b12189;
+    --text: #eeedec;
+}
+
+:root.matchamocha {
+    --background_color: #523525;
+    --primary_color: #422b1e;
+    --secondary_color: #9e6749;
+    --title: #7ec160;
+    --text: #ecddcc;
+}
+
+:root.pro {
+    --background_color: #323437;
+    --primary_color: #2c2e31;
+    --secondary_color: #5f5f61;
+    --title: #e23d14;
+    --text: #ffc7c7;
+}
+
+:root.deepocean {
+    --background_color: #21314b;
+    --primary_color: #12223b;
+    --secondary_color: #9e9e9e;
+    --title: #3667cf;
+    --text: #ffffff;
+}
+
+:root.honey {
+    --background_color: #f2aa00;
+    --primary_color: #e19e00;
+    --secondary_color: #a66b00;
+    --title: #fff546;
+    --text: #525047;
+}
+
+:root.incognito {
+    --background_color: #0e0e0e;
+    --primary_color: #151515;
+    --secondary_color: #555555;
+    --title: #ff9900;
+    --text: #c6c6c6;
+}
+
+:root.doomsday {
+    --background_color: #000000;
+    --primary_color: #1e001e;
+    --secondary_color: #972fff;
+    --title: #c58aff;
+    --text: #ebd7ff;
+}
+
+:root.discord {
+    --background_color: #313338;
+    --primary_color: #2b2d31;
+    --secondary_color: #565861;
+    --title: #5a65ea;
+    --text: #bcbfc3;
+}
+
+:root.cherry {
+    --background_color: #fec8cd;
+    --primary_color: #f2babd;
+    --secondary_color: #ffffff;
+    --title: #ca0000;
+    --text: #ffffff;
+}
+
+
+
+
+
+
+
+
+

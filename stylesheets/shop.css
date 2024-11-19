@@ -1,0 +1,159 @@
+@import url(./color_palettes.css);
+
+@font-face {
+    font-family: "websiteFont";
+    src: url(./../font/LFTEticaMono-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "websiteFont";
+    src: url(./../font/JetBrainsMono-ExtraBold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+h2 {
+    color: var(--text);
+    text-align: left;
+    font-size: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'websiteFont', sans-serif;
+  }
+
+  .shop_container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 55%;
+    margin: auto;
+    background-color: var(--background_color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.shop_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop_time {
+    color: var(--title);
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid var(--title);
+    border-radius: 10px;
+}
+
+.shop_resources {
+    color: var(--title);
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid var(--title);
+    border-radius: 10px;
+}
+
+.shop_items_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+}
+
+.important_item, .less_important_item, .minor_items_a, .minor_items_b {
+    background-color: var(--primary_color);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.important_item {
+    flex: 1 1 30%;
+    height: auto; 
+}
+
+.less_important_item {
+    flex: 1 1 30%;
+    height: auto;
+}
+
+.minor_items_container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+}
+
+.minor_items_a, .minor_items_b {
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+}
+
+.button_description {
+    background-color: transparent;
+    text-transform: none;
+    font-size: 15px;
+    border: 0px;
+    font-weight: normal;
+    text-align: left;
+    padding: 0px;
+    box-shadow: none;
+    white-space: normal;
+}
+
+@media screen and (max-width: 800px) {
+    .shop_header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+        white-space: nowrap;
+        margin-bottom: 15px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .center_controls {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .shop_resources, .shop_time {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 0; 
+        vertical-align: middle;
+        line-height: normal;
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+}
+
+
